@@ -1,0 +1,2 @@
+#!/bin/sh
+/Users/karliskanders/opt/miniconda3/envs/github_monitor/bin/python /Users/karliskanders/Documents/github_monitor/log_traffic_data.py /Users/karliskanders/Documents/github_monitor/configs_test.yaml

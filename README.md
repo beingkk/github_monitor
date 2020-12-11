@@ -1,2 +1,2 @@
 # github_monitor
-Simple Python project for logging repo traffic
+Simple Python project for logging traffic to repo

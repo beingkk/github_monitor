@@ -1,8 +1,9 @@
 logs/*
 !logs/traffic_log_github_monitor.csv
+!logs/traffic_log_occupation-classification.csv
 configs_*.yaml
 
-# small protection from accidentally sharing token txt file
+# small protection from accidentally sharing a token txt file
 *.txt
 !template_token.txt
 

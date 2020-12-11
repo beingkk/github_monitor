@@ -24,8 +24,8 @@ You will need a github authorisation token to be able use github's API to check 
 - `template_config.yaml` provides a template for configuring your parameters
 - `template_token.txt` provides a dummy token file, in the format that the script is expecting
 
-## One-off checking
-Once your config file setup, you can run the script `log_traffic_data.py` and provide your config filename, for example `configs_test.yaml`
+## One-time checking
+Once your config file is set up, you can run the script `log_traffic_data.py` and provide your config filename, for example `configs_test.yaml`
 
 ```
 $ python log_traffic_data.py configs_test.yaml

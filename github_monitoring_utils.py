@@ -1,17 +1,9 @@
 import pandas
-import numpy
 import requests
-import json
 import datetime
 import time
 import os, sys
 import yaml
-
-
-def jprint(obj):
-    ''' Create a formatted string of the Python JSON object '''
-    text = json.dumps(obj, sort_keys=True, indent=4)
-    print(text)
 
 def get_params(args):
     ''' Get the params for fetching traffic data '''

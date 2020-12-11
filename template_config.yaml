@@ -1,0 +1,9 @@
+path_to_token: ../../token.txt # Full path to your super secret github authorisation token - make sure to keep it safe and private!
+owner_name: beingkk
+repo_name: github_monitor
+log_folder: ../../logs/ # Full path to where you want the logs to be saved
+endpoints_to_check: # Github API endpoints to check
+  - popular/paths
+  - popular/referrers
+  - views
+  - clones

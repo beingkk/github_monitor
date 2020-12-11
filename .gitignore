@@ -1,3 +1,11 @@
+logs/*
+!logs/traffic_log_github_monitor.csv
+configs_*.yaml
+
+# small protection from accidentally sharing token txt file
+*.txt
+!template_token.txt
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
